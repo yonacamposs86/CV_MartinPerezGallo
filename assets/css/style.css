@@ -5,9 +5,10 @@ body {
 header {
     background-color: black;
     background-image:url(/assets/img/cartographer.png);
+
 }
 
-navbar {
-    color:antiquewhite
+navbar .p{
+    text-align: end;
 }
 

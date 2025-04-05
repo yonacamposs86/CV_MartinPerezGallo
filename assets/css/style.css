@@ -2,4 +2,12 @@ body {
     font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif
 }
 
+header {
+    background-color: black;
+    background-image:url(/assets/img/cartographer.png);
+}
+
+navbar {
+    color:antiquewhite
+}
 

@@ -28,25 +28,16 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Martin C. Perez Gallo</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <a class="navbar-brand" href="https://martanpegallo.github.io/CV_MartinPerezGallo/"><img src="/assets/img/IMG_0009_Redim.jpg" class=" m-1 rounded-circle" alt="Logo"> Martin C. Perez Gallo </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#"
-              >Acerca de mi</a
-            >
+            <a class="nav-link" href="#">Portafolio</a>
+            <a class="nav-link" href="#">About</a>
             <a class="nav-link" href="#">Estudios</a>
             <a class="nav-link" href="#">Habilidades</a>
             <a class="nav-link" href="#">Contacto</a>
@@ -75,9 +66,9 @@
 
     <!-- Secction Main About -->
     <main id="About">
-      <div class="container-fluid my-2 text-center p-0">
+      <div class="container-fluid text-center p-0">
         <div class="text-bg-light p-3">
-          <h3>Datos personales</h3>
+          <h3 class="fw-bold">Datos personales</h3>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
               Nombre completo: Martin Cristobal Perez Gallo
@@ -93,10 +84,10 @@
     </main>
 
     <!-- Section estudios -->
-    <section id="Estudios" class="my-2 text-center bg-dark">
+    <section id="Estudios" class="text-center bg-dark">
       <div class="container-fluid p-0">
         <div>
-          <h3 class="text-light py-2">Estudios academicos</h3>
+          <h3 class="text-light py-2 fw-bold">Estudios academicos</h3>
         </div>
         <div class="d-flex flex-column align-items-center">
           <div
@@ -104,7 +95,7 @@
             style="width: 18rem"
           >
             <div class="card-body">
-              <h5 class="card-title">Fullstack developer</h5>
+              <h5 class="card-title">Fullstack Developer</h5>
               <h6 class="card-subtitle mb-2 text-primary">
                 2025 Desafio Latam
               </h6>
@@ -116,7 +107,7 @@
             style="width: 18rem"
           >
             <div class="card-body">
-              <h5 class="card-title">Mg. Gestion y administracion ambiental</h5>
+              <h5 class="card-title">Mg. Administracion y Gestion Ambiental</h5>
               <h6 class="card-subtitle mb-2 text-primary">
                 2017 - 2020 U. Arturo Prat
               </h6>
@@ -140,30 +131,30 @@
     </section>
 
     <!-- Secction habilidades -->
-    <section id="Habilidades" class="container-fluid my-2 text-center">
+    <section id="Habilidades" class="container-fluid text-center bg-light text-dark">
       <div>
-        <h3>Habilidades</h3>
+        <h3 class="fw-bold">Habilidades</h3>
       </div>
       <div class="row justify-content-around">
-        <div class="col-12 col-md-4 mb-2 border border-2 rounded border-secondary">
+        <div class="col-12 col-md-4 m-2 border border-2 rounded border-secondary">
           <i class="fa-solid fa-language"></i>
           <h4>Idiomas</h4>
           <p>Ingles - medio</p>
           <p>Portugues - Basico</p>
         </div>
-        <div class="col-12 col-md-4 mb-2 border border-2 rounded border-secondary">
+        <div class="col-12 col-md-4 m-2 border border-2 rounded border-secondary">
           <i class="fa-solid fa-leaf"></i>
           <h4>Desarrollo Sustentable</h4>
           <p>Ingles - medio</p>
           <p>Portugues - Basico</p>
         </div>
-        <div class="col-12 col-md-4 mb-2 border border-2 rounded border-secondary">
+        <div class="col-12 col-md-4 m-2 border border-2 rounded border-secondary">
           <i class="fa-solid fa-wheelchair-move"></i>
           <h4>Accesibilidad Universal</h4>
           <p>Ingles - medio</p>
           <p>Portugues - Basico</p>
         </div>
-        <div class="col-12 col-md-4 mb-2 border border-2 rounded border-secondary">
+        <div class="col-12 col-md-4 m-2 border border-2 rounded border-secondary">
           <i class="fa-solid fa-camera-retro"></i>
           <h4>Fotografia</h4>
           <p>Ingles - medio</p>
@@ -172,41 +163,46 @@
       </div>
     </section>
 
+    <!-- section Portafolio -->
+    
     <!-- Section contacto -->
-    <section id="Contacto" class="container my-5 p-0">
-      <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
-      <div class="row d-flex flex-column">
-        <div class="col-auto d-flex flex-column align-items-center">
+    <section id="Contacto" class="container my-3 p-1 rounded bg-light text-dark">
+      <h3 class="display-4 fw-bold fs-3 text-center my-3">Contáctame</h3>
+      <div class="row">
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
           <i class="fa-solid fa-mobile-screen-button"></i>
           <p>+56 9 7422 5080</p>
         </div>
-        <div class="col-auto d-flex flex-column align-items-center">
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
           <i class="fa-solid fa-location-dot"></i>
-          <p>Av. Americo vespucio 253</p>
-          <p> Ñuñoa - Santiago de Chile</p>
+          <p>Av. Americo vespucio 253 - Ñuñoa - Santiago - Chile</p>
         </div>
-        <div class="col-auto d-flex flex-column align-items-center">
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
           <i class="fa-solid fa-at"></i>
           <p> martin.perezgallo@icloud.com</p>
         </div>
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+          <i class="fa-solid fa-circle-user"></i>
+          <a href="https://www.linkedin.com/in/martinc-perezgallo/" target="_blank">Linkedin</a>
+        </div>
       </div>
       <form>
-        <div class="form-group mb-4">
+        <div class="form-group m-4">
           <label class="mb-2">Nombre</label>
           <input class="form-control" placeholder="Nombre" />
         </div>
-        <div class="form-group mb-4">
+        <div class="form-group m-4">
           <label class="mb-2">Correo electrónico</label>
           <input class="form-control" placeholder="Correo electrónico" />
         </div>
-        <div class="form-group">
+        <div class="form-group m-4">
           <label class="mb-2">Mensaje</label>
           <textarea
             class="form-control"
             placeholder="Escribe aquí tu mensaje"
           ></textarea>
         </div>
-        <div class="my-3 text-end">
+        <div class="d-grid gap-2 col-6 mx-auto my-3 text-end">
           <button class="btn btn-secondary text-light">Enviar</button>
         </div>
       </form>
